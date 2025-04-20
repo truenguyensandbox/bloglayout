@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Blog Layout</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="bg-dark text-white text-center py-4 mb-4">
+    <h1>📰 My Blog</h1>
+    <p class="lead">Sharing thoughts, insights, and inspiration</p>
+  </header>
+
+  <main class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <!-- Blog Post 1 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="https://source.unsplash.com/random/400x200?tech" class="card-img-top" alt="Tech Image">
+          <div class="card-body">
+            <h5 class="card-title">Exploring Tech Trends</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui a ante mollis tempor.</p>
+          </div>
+          <div class="card-footer text-muted small">
+            By Jane Doe • April 2025
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Post 2 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="https://source.unsplash.com/random/400x200?travel" class="card-img-top" alt="Travel Image">
+          <div class="card-body">
+            <h5 class="card-title">Adventures Abroad</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis purus eget erat finibus accumsan.</p>
+          </div>
+          <div class="card-footer text-muted small">
+            By John Smith • April 2025
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Post 3 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="https://source.unsplash.com/random/400x200?wellness" class="card-img-top" alt="Wellness Image">
+          <div class="card-body">
+            <h5 class="card-title">Mindfulness Matters</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae nisl quis ante rhoncus placerat.</p>
+          </div>
+          <div class="card-footer text-muted small">
+            By Emily Ray • April 2025
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-light text-center text-muted py-3 mt-4">
+    <small>© 2025 My Blog. All rights reserved.</small>
+  </footer>
+</body>
+</html>
